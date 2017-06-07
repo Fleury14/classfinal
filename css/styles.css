@@ -91,7 +91,7 @@
 }
 
 .about-box-1 h2 {
-    color: green;
+    color: black;
     text-align: center;
     margin: 5px 0px;
     background-color: #9ac2c9;
@@ -104,8 +104,7 @@
     height: 180px;
     width: 180px;
     border: 1px solid red;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 20px;
     display: inline-block;
     float: left;
 }
@@ -113,18 +112,25 @@
 .about-iconright {
     height: 180px;
     width: 180px;
-    margin-right: 20px;
+    margin: 20px;
     float: right;
     border: 1px solid red;
 }
 
-.about-bowling {
+.about-bodytext-left {
     color: black;
     font-size: 18px;
-    margin-right: 20px;
+    margin: 20px;
     font-family: "Play", sans-serif;
 
 }
+
+.about-bodytext-right {
+    color: black;
+    font-size: 18px;
+    font-family: "Play", sans-serif;
+    margin-left: 20px;
+}    
 
 
 /* End main body (about) styles */
