@@ -1,0 +1,259 @@
+/*  Palette: https://coolors.co/b9d8c2-9ac2c9-8aa1b1-4a5043-ffcb47 */
+
+/* Begin navbar styles */
+
+.navbar-container {
+    height: 50px;
+    width: 100%;
+    background-color: #4a5043;
+
+}
+
+.navbar-icon {
+    float: left;
+    height: 40px;
+    margin: 5px 0px 5px 5px;
+}
+
+.navbar-list {
+    
+    float: right;
+    margin-right: 50px;
+    list-style: none;
+}
+
+.navbar-item {
+    float: left;
+    margin-left: 50px;
+    font-family: "Play", sans-serif;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #FFCB47;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+    color: #b9d8c2;
+}
+
+/* End Navbar Styles */
+
+/* Begin banner styles */
+
+.banner-image {
+
+    height: 150px;
+    width: 100%;
+    background: #9ac2c9;
+    background: linear-gradient(to bottom right, #8AA1B1, #9ac2c9, #b9dac2);
+
+}
+
+.banner-text {
+    display: inline-block;
+    color: white;
+    margin-left: 40%;
+    margin-top: 56.5px;
+    font-family: 'Alegreya', serif;
+}
+
+/* End banner  styles */
+
+/* Begin main body (index) styles */
+
+.index-mainbody {
+    width: 100%;
+    height: 1150px;
+    border: 1px solid black;
+}
+
+/* End main body Styles */
+
+/* Begin main body (about) styles */
+
+.about-mainbody {
+    width: 100%;
+    height: 1150px;
+    border: 1px solid black;
+}
+
+.about-box-1 {
+    width: 35%;
+    height: 480px;
+    margin-left: 9.9%;
+    border: 1px solid black;
+    margin-top: 50px;
+    float: left;
+    
+   
+}
+
+.about-box-1 h2 {
+    color: green;
+    text-align: center;
+    margin: 5px 0px;
+    background-color: #9ac2c9;
+    
+    
+    
+}
+
+.about-iconleft {
+    height: 180px;
+    width: 180px;
+    border: 1px solid red;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    float: left;
+}
+
+.about-iconright {
+    height: 180px;
+    width: 180px;
+    margin-right: 20px;
+    float: right;
+    border: 1px solid red;
+}
+
+.about-bowling {
+    color: black;
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: "Play", sans-serif;
+
+}
+
+
+/* End main body (about) styles */
+
+/* Begin main body (contact) styles */
+
+.contact-mainbody {
+    width: 100%;
+    height: 1150px;
+    
+}
+
+.contact-row-1 {
+    height: 150px;
+    width: 780px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+.contact-box-1 {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.contact-box-1 .fa {
+    font-size: 50px;
+    color: #8aa1b1;
+    text-align: center;
+}
+
+.contact-box-1 .fa:hover {
+    color: #b9d8c2;
+}
+
+.contact-body-1 {
+    height: 150px;
+    width: 700px;
+    float: right;
+    font-family: 'Alegreya', serif;
+    
+}
+
+.contact-body-1 p {
+    margin-top: 0px;
+    font-size: 24px;
+}
+
+.wufoo-form-container {
+    width: 50%;
+    border: 3px solid #8aa1b1;
+    margin: 0 auto;
+    border-radius: 5%;
+    padding: 10px;
+    
+    
+    
+    
+}
+
+/* End main body (contact) styles */
+
+/*Begin footer Styles */
+
+.footer-container {
+    height: 150px;
+    width: 100%;
+    background-color: #4a5043;
+    border: 1px solid black;
+    float: left;
+}
+
+.footer-column {
+    height: 100%;
+    width: 33%;
+    float: left;
+    
+}
+
+.copyright-text {
+    text-align: center;
+    margin-top: 46.5px;
+    color: #FFCB47;
+    font-family: "Play", sans-serif;
+}
+
+.social-box {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.social-row {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.social-row .fa {
+    font-size: 30px;
+    padding-top: 10px;
+    color: #000;
+}
+
+.social-row .fa:hover {
+    color: #b9d8c2;
+}
+
+.social-icon-top {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background: radial-gradient(#4a5043, #FFCB47, #4a5043);
+    border-radius: 50%;
+    
+}
+
+.social-icon-left {
+    height: 50px;
+    width: 50px;
+    float: left;
+    background: radial-gradient(#4a5043, #FFCB47, #4a5043);
+    border-radius: 50%;
+}
+
+.social-icon-right {
+    height: 50px;
+    width: 50px;
+    float: right;
+    background: radial-gradient(#4a5043, #FFCB47, #4a5043);
+    border-radius: 50%;
